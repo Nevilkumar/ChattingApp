@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 700;
+}
+body {
+  color: white;
+  min-width: 100vw;
+  min-height: 100vh;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+}
+
+.main-container {
+  width: 80%;
+  margin: auto;
+}
+.navbar {
+  width: 100%;
+  height: 10vh;
+  margin: auto;
+  border: 3px solid black;
+  border-bottom: none;
+  background-color: #293a80;
+}
+
+.nav-title {
+  font-size: 30px;
+  text-align: center;
+  line-height: 10vh;
+}
+
+.nav-title i {
+  font-size: 35px;
+  margin-right: 10px;
+}
+
+.user-title {
+  text-align: center;
+  font-size: 30px;
+  margin: 10px;
+  overflow: auto;
+}
+i {
+  margin-right: 10px;
+}
+
+.container {
+  width: 100%;
+  height: 68vh;
+  margin: auto;
+  padding: 4px;
+  background-color: #537ec5;
+  border: 3px solid black;
+  overflow-y: auto;
+}
+
+.message {
+  background-color: rgba(255, 255, 255, 0.5);
+  width: 30%;
+  padding: 8px;
+  margin: 3px 10px;
+  color: black;
+  border-radius: 4px;
+}
+.message-user-right {
+  color: #c50142;
+  font-weight: 800;
+  font-size: 18px;
+  margin-bottom: 3px;
+}
+.message-user-left {
+  color: #af6900;
+  font-weight: 800;
+  font-size: 18px;
+  margin-bottom: 3px;
+}
+.left {
+  float: left;
+  clear: both;
+  border-left: 8px solid #c87800;
+}
+
+.right {
+  float: right;
+  clear: both;
+  border-right: 8px solid #e91e63;
+}
+
+#send-container {
+  width: 100%;
+  height: 10vh;
+  margin: auto;
+  border: 3px solid black;
+  border-top: none;
+  background-color: #537ec5;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#messageInp {
+  width: 80%;
+  border-radius: 4px;
+  height: 6vh;
+  outline: none;
+  border: none;
+  padding-left: 10px;
+  font-size: 18px;
+  margin-right: 10px;
+  font-weight: 600;
+  font-family: "Quicksand", sans-serif;
+}
+.btn {
+  width: 11%;
+  height: 6vh;
+  cursor: pointer;
+  border-radius: 4px;
+  outline: none;
+  border: none;
+  font-size: 18px;
+  font-weight: 600;
+  font-family: "Quicksand", sans-serif;
+  color: white;
+  background-color: #293a80;
+}

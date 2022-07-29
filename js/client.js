@@ -33,7 +33,7 @@ const append = (username, message, position) => {
 socket.emit('new-user-joined', name);
 
 socket.on('user-joined', (name) => {
-    append("", `${name} joned the chat`, 'right');
+    append("", `${name} joined the chat`, 'right');
 });
 
 socket.on('receive', data => {
